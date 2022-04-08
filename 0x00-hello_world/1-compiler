@@ -1,2 +1,2 @@
 #!/bin/bash
-cc -c -o obj/$CFILE.o
+$ gcc -Wall $CFILE.c -o $CFILE
