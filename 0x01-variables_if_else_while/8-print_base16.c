@@ -14,7 +14,7 @@ int main(void)
 
 	char low;
 
-	for (x ='0'; x <= '9'; x++)
+	for (x = '0'; x <= '9'; x++)
 	{
 		putchar(x);
 	}
@@ -24,5 +24,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
