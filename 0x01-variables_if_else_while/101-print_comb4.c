@@ -12,9 +12,9 @@ int main(void)
 {
 	int x, y, z;
 
-	for (x = '0', x < '9', x++)
+	for (x = '0'; x < '9'; x++)
 	{
-		for (y = x + 1; y <= '9', y++)
+		for (y = x + 1; y <= '9'; y++)
 		{
 			for (z = y + 1; z <= '9'; z++)
 			{
@@ -24,7 +24,7 @@ int main(void)
 					putchar(y);
 					putchar(z);
 
-					if (d == '7' && p == '8')
+					if (x == '7' && y == '8')
 						continue;
 
 					putchar(',');
