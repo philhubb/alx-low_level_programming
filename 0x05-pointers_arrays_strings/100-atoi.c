@@ -27,4 +27,8 @@ int _atoi(char *s)
 		s++;
 	}
 
+	if (sign < 0)
+		total = (-total);
+
+	return (total);
 }
