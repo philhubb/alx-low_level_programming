@@ -18,7 +18,7 @@ char *leet(char *s)
 	while (s[i] != '\0')
 	{
 		j = 0;
-		k - 0;
+		k = 0;
 		while (l[j] != '\0')
 		{
 			if (s[i] == l[j])
