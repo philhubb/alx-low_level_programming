@@ -14,7 +14,6 @@ int _atoi_digit(char x)
 	if (x <= '9' && x >= '0')
 		res = x - '0';
 	return (res);
-	free(x);
 }
 
 /**
