@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - A function that print numbers with a separator 
+ * print_numbers - A function that print numbers with a separator
  * followed by a new line.
  * @separator: An input string to be printed between numbers.
  * @n: int, number of undefined arguments
