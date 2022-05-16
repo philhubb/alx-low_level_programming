@@ -20,7 +20,8 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	va_start(lst, n);
 	if (n != 0)
-		for (i = 0; i < n; sum += va_arg(lst, unsigned int), i++);
+		for (i = 0; i < n; sum += va_arg(lst, unsigned int), i++)
+		;
 	va_end(lst);
 	return (sum);
 }
