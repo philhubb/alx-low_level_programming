@@ -8,11 +8,17 @@
   */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int max = 0x01;
+	unsigned long int *pointer;
+	unsigned long int ind = 1;
 
-	max <<= index;
-	if (max == 0)
+	if (index > 64)
+	{
 		return (-1);
-	*n |= max;
+	}
+	pointer = n;
+	ind <<= index;
+	if (!(*pointer & ind))
+		*pointer += ind;
 	return (1);
+
 }
